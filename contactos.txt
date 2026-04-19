@@ -1,0 +1,4 @@
+NOMBRE;TELEFONO;EMAIL;CATEGORIA;FAVORITO
+Oscar Tacuri;+1 929 757 6780;toscar@gmail.com;Familia;false
+Xavier;+1 929 401 7677;crisave123@gamil.com;Familia;false
+Andres;+593 99 518 5893;crisave12@hotmail.com;Amigos;true
