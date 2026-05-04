@@ -308,7 +308,15 @@ public class logica_ventana implements ActionListener, ListSelectionListener, It
     @Override
     public void itemStateChanged(ItemEvent e) {
         if (e.getSource() == delegado.cmb_categoria) {
-            categoria = delegado.cmb_categoria.getSelectedItem().toString();
+
+            Object seleccionado = delegado.cmb_categoria.getSelectedItem();
+
+            if (seleccionado != null) {
+                categoria = seleccionado.toString();
+            } else {
+                categoria = "";
+            }
+
         } else if (e.getSource() == delegado.chb_favorito) {
             favorito = delegado.chb_favorito.isSelected();
         }
